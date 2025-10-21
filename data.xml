@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<data>
+    <users>
+        <user>
+            <id>U001</id>
+            <name>Bill Gates</name>
+            <email>bill.gates@example.com</email>
+        </user>
+        <user>
+            <id>U002</id>
+            <name>Satya Nadella</name>
+            <email>satya.nadella@example.com</email>
+        </user>
+        <user>
+            <id>U003</id>
+            <name>Mark Zuckerberg</name>
+            <email>mark.zuckerberg@example.com</email>
+        </user>
+        <user>
+            <id>U004</id>
+            <name>Sam Altman</name>
+            <email>sam.altman@example.com</email>
+        </user>
+    </users>
+    <projects>
+        <project>
+            <id>PRJ-0001</id>
+            <description>Sistema de gestión para pymes</description>
+            <managerId>U001</managerId>
+            <tasks>
+                <task>
+                    <id>T-001</id>
+                    <description>Configurar BD</description>
+                    <expectedFinishDate>2025-12-28</expectedFinishDate>
+                    <priority>ALTA</priority>
+                    <status>ABIERTA</status>
+                    <responsibleId>U001</responsibleId>
+                </task>
+                <task>
+                    <id>T-003</id>
+                    <description>Diseñar esquema de autenticación</description>
+                    <expectedFinishDate>2025-12-10</expectedFinishDate>
+                    <priority>BAJA</priority>
+                    <status>RESUELTA</status>
+                    <responsibleId>U001</responsibleId>
+                </task>
+            </tasks>
+        </project>
+        <project>
+            <id>PRJ-0002</id>
+            <description>Plataforma web</description>
+            <managerId>U002</managerId>
+            <tasks>
+                <task>
+                    <id>T-004</id>
+                    <description>Hosting</description>
+                    <expectedFinishDate>2025-10-20</expectedFinishDate>
+                    <priority>MEDIA</priority>
+                    <status>EN_PROGRESO</status>
+                    <responsibleId>U002</responsibleId>
+                </task>
+            </tasks>
+        </project>
+        <project>
+            <id>PRJ-0003</id>
+            <description>Redes</description>
+            <managerId>U004</managerId>
+            <tasks>
+                <task>
+                    <id>T-005</id>
+                    <description>Configurar routers</description>
+                    <expectedFinishDate>2025-10-20</expectedFinishDate>
+                    <priority>MEDIA</priority>
+                    <status>EN_PROGRESO</status>
+                    <responsibleId>U004</responsibleId>
+                </task>
+            </tasks>
+        </project>
+    </projects>
+</data>
